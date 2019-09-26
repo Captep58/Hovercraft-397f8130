@@ -1,0 +1,47 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+  }
+
+tr,
+th
+ {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 25px;
+}
+td{
+	border: 1px solid rgb(190, 190, 190);
+    padding: 20px;
+    background-color: rgb(102, 102, 102);
+    font-style: oblique;
+    font-size: 20px;
+}
+.note {
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+}
+.old{
+	background-color: orange;
+}
+.ak {
+	background-color: purple;
+}
+.kk {
+	background-color: blue;
+}
+.oo {
+	background-color: yellow;
+}
+.alk {
+	font-size: 20px;
+	font-style: oblique;
+}
+
+@media {
+	a:hover {
+		background: red;
+		cursor: grab;
+	}
+}
+
